@@ -1,18 +1,29 @@
 <template>
   <div class="home">
-    <img alt="Vue logo" src="../assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <h1>Induction Cooker</h1>
+    <svg viewBox="0 0 1000 1000" xmlns="http://www.w3.org/2000/svg">
+        <!-- The light grey background -->
+        <rect x="0" y="0" width="100%" height="100%" fill="#dddddd"/>
+
+        <!-- Nest svg for the start of the cooker -->
+        <svg x="250" y="100" width="540" height="530">
+          <rect x="0" y="0" width="100%" height="100%" fill="black"/>
+          <CookerHeatingPoint row="1" col="1" line-length="65"></CookerHeatingPoint>
+          <CookerHeatingPoint row="1" col="2" line-length="40"></CookerHeatingPoint>
+          <CookerHeatingPoint row="2" col="1" line-length="40"></CookerHeatingPoint>
+          <CookerHeatingPoint row="2" col="2" line-length="65"></CookerHeatingPoint>
+        </svg>
+      </svg>
   </div>
 </template>
 
 <script>
-// @ is an alias to /src
-import HelloWorld from '@/components/HelloWorld.vue';
+import CookerHeatingPoint from '../components/CookerHeatingPoint.vue';
 
 export default {
-  name: 'Home',
+  name: 'Cooker',
   components: {
-    HelloWorld,
+    CookerHeatingPoint,
   },
 };
 </script>
