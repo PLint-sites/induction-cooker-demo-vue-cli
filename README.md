@@ -1,5 +1,7 @@
 # setup-project-with-vue-cli
 
+This repository contains the demo code for the induction cooker we'll be building together throughout a series of blogposts. I am currently working on the first post and it will be published shortly on our blog.
+
 ## Project setup
 ```
 npm install
