@@ -6,8 +6,8 @@ When preparing diner after a day of programming on a Vue project, I was intrigue
 
 This repository contains the demo code for the induction cooker we'll be building together throughout a series of blogposts. 
 
-## 2020-07-22
-I am currently working on the first post and it will be published shortly on our blog. In this post I'll explain the setup with svg elements
+## 2020-07-29
+The first is published on our [blog](https://www.blog.plint-sites.nl/an-interactive-induction-cooker-in-vue-1/). In this post I explain the setup with svg elements.
 
 ![After post #1](https://www.blog.plint-sites.nl/wordpress/wp-content/uploads/2020/07/Position-heating-points.png)
 
